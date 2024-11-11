@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Form</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <header>
+      <h1>Arnav Goel</h1>
+      <nav>
+        <ul>
+          <li><a href="#">Home</a></li>
+          <li><a href="#">About Me</a></li>
+          <li><a href="#">Contact Me</a></li>
+        </ul>
+      </nav>
+    </header>
+    <div class="hero-image">Welcome to my Website!</div>
+    <div class="image-container">
+      <img src="amit neogi.jpg" alt="amit neogi" width="25%" />
+    </div>
+    <main>
+      <h2>Hello There! To know you better, I need some of your details</h2>
+      <form>
+        <div>
+          <label for="name">Name:</label>
+          <input
+            type="text"
+            id="name"
+            name="name"
+            required
+            placeholder="SpongeBob"
+          />
+        </div>
+        <div>
+          <label for="email">Email:</label>
+          <input
+            type="email"
+            id="email"
+            name="email"
+            required
+            placeholder="abcd1234@gmail.com"
+          />
+        </div>
+        <div>
+          <label for="message">Message:</label>
+          <textarea
+            id="message"
+            name="message"
+            rows="5"
+            required
+            placeholder="Leave me a message"
+          ></textarea>
+        </div>
+        <button type="submit">Submit</button>
+      </form>
+    </main>
+    <footer>
+      <p>&copy; 2024 Form. All rights reserved.</p>
+    </footer>
+  </body>
+</html>
